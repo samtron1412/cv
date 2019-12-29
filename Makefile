@@ -3,7 +3,7 @@
 # Brandon Amos <http://bamos.github.io> and
 # Ellis Michael <http://ellismichael.com>
 
-WEBSITE_DIR=$(HOME)/repos/website
+WEBSITE_DIR=$(HOME)/repo/website
 WEBSITE_PDF=$(WEBSITE_DIR)/data/cv.pdf
 WEBSITE_MD=$(WEBSITE_DIR)/_includes/cv.md
 WEBSITE_DATE=$(WEBSITE_DIR)/_includes/last-updated.txt
@@ -42,7 +42,7 @@ $(PDF): $(TEX) publications/*.bib
 	latexmk -c -cd $(BUILD_DIR)/cv
 
 viewpdf: $(PDF)
-	gnome-open $(PDF)
+	open $(PDF)
 
 stage: $(PDF) $(MD)
 	cp $(PDF) $(WEBSITE_PDF)
