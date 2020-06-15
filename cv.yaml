@@ -47,11 +47,11 @@ about: '
   learning, including reinforcement learning and computer vision.
   <br><br>
 
-  I am teaching two [EE16B](https://inst.eecs.berkeley.edu/~ee16b/sp20/)
+  I am teaching two [EE16B](https://inst.eecs.berkeley.edu/~ee16b/su20/)
   (Designing Information Devices and Systems II) discussion sections
   this semester. I will post my discussion slides and other resources
   for the course on this site, and you can access it through [this
-  link](teaching/16b-sp20/).
+  link](teaching/16b-su20/).
   <br><br>'
 
 
@@ -108,7 +108,7 @@ education:
     location: Berkeley, California
     degree: B.S. in EECS
     dates: Aug 2018 -- Present
-    overallGPA: 3.91/4.00
+    overallGPA: 3.93/4.00
     # majorGPA: 4.00/4.00
   - school: Golden West College
     location: Huntington Beach, California
@@ -123,6 +123,12 @@ research:
   #   title: Research Scientist
   #   dates: May 2019 -- Present
   #   area: Machine learning and optimization
+  - place: UC Berkeley, EECS Department
+    location: Berkeley, California
+    title: Undergraduate Research Assistant
+    advisor: Prof. Avideh Zakhor
+    dates: Jan 2020 -- Present
+    area: Robotics, Computer Vision, Machine Learning
   - place: UC Berkeley, EECS Department
     location: Berkeley, California
     title: Undergraduate Research Assistant
@@ -191,6 +197,10 @@ industry:
 
 
 teaching:
+  - semester: Su2020
+    name: Designing Information Devices, and Systems II
+    short: EE16B
+    position: Teaching Assistant (TA)
   - semester: Sp2020
     name: Designing Information Devices, and Systems II
     short: EE16B
@@ -245,6 +255,12 @@ all_publications:
 
 
 coursework:
+  - semester: Sp2020
+    name: Introduction to Machine Learning (CS 189/289A)
+    instructor: Jonathan Shewchuk
+  - semester: Sp2020
+    name: Robotic Manipulation and Interaction (EECS C106B/206B)
+    instructor: Shankar Sastry and Ruzena Bajcsy
   - semester: Fa2019
     name: Optimization Models in Engineering (EE127)
     instructor: Alexandre Bayen
@@ -282,7 +298,7 @@ coursework:
 
 skills:
   - title: Languages
-    details: Java, C, C++, Python, bash, {\it MATHLAB}
+    details: Python, Java, C, C++, bash, {\it MATHLAB}
   - title: Frameworks
     details: NumPy, SciPy, Apache Spark, Apache Hadoop, Apache Kafka
   - title: Systems
