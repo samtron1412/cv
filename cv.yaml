@@ -4,12 +4,13 @@ name:
 # phone: ~(540)~947~1238
 email: sontran@berkeley.edu
 pdf: /data/cv.pdf
+pdf: /data/resume.pdf
 src: https://github.com/samtron1412/cv
 url: "samtron1412.github.io"
 social:
   github: samtron1412
-  twitter: samtron1412
   linkedin: samtron1412
+  twitter: samtron1412
   # google_scholar: d8gdZR4AAAAJ
 # Erdős  number is at most 4.
 # (Brandon Amos -> Layne Watson -> Leroy Kelly -> Zoltán Füredi -> Paul Erdős )
@@ -47,11 +48,11 @@ about: '
   learning, including reinforcement learning and computer vision.
   <br><br>
 
-  I am teaching two [EE16B](https://inst.eecs.berkeley.edu/~ee16b/su20/)
+  I am teaching two [EE16B](https://inst.eecs.berkeley.edu/~ee16b/fa20/)
   (Designing Information Devices and Systems II) discussion sections
   this semester. I will post my discussion slides and other resources
   for the course on this site, and you can access it through [this
-  link](teaching/16b-su20/).
+  link](teaching/16b-fa20/).
   <br><br>'
 
 
@@ -107,7 +108,7 @@ education:
   - school: UC Berkeley
     location: Berkeley, California
     degree: B.S. in EECS
-    dates: Aug 2018 -- Present
+    dates: Aug 2018 -- Dec 2020
     overallGPA: 3.93/4.00
     # majorGPA: 4.00/4.00
   - school: Golden West College
@@ -129,22 +130,32 @@ research:
     advisor: Prof. Avideh Zakhor
     dates: Jan 2020 -- Present
     area: Robotics, Computer Vision, Machine Learning
+    details:
+      - Collaborating with four team members on designing an algorithm
+        and machine learning pipeline for indoor visual navigation
+      - Implementing the algorithm and architecture, using Python 3,
+        Pytorch, TensorFlow and OpenCV
   - place: UC Berkeley, EECS Department
     location: Berkeley, California
     title: Undergraduate Research Assistant
     advisor: Oladapo Afolabi
     dates: Aug 2019 -- Dec 2019
     area: Computer Vision, 3D Vision, Augmented Reality, Virtual Reality
+    details:
+      - Used LIDAR, depth and RGB cameras to collect over 100 GB of 3D
+        graphical data for developing computer vision algorithms
+      - Wrote code using Python 3 and Open3D library to process point
+        clouds and image data
   - place: UC Berkeley, EECS Department, SWARM Lab
     location: Berkeley, California
     title: Undergraduate Research Assistant
     dates: May 2019 -- Dec 2019
     area: Micro Electro Mechanical Systems (MEMS)
     details:
-      - Supporting graduate students design and test micro jumping and
-        swimming robots
-      - Developing and testing novel electrostatic rotational
-        gap-closing actuators and micro-motors
+      - Assisted graduate students in designing hundreds of micro
+        jumping and swimming robots
+      - Tested the robots to guarantee the designs meet the requirements
+        of performance and safety
   - place: CSU Fullerton
     location: Fullerton, California
     title: Undergraduate Research Assistant
@@ -152,8 +163,10 @@ research:
     dates: Jun 2018 -- Aug 2018
     area: Distributed computing and machine learning
     details:
-      - Used Apache Spark running on Hadoop to implement and test
-        diﬀerent multi-class classiﬁcation algorithms
+      - Used Apache Spark and Scala to implement and test machine
+        learning algorithms
+      - Attended collaborative meetings to address issues in
+        implementing the algorithms
   - place: JPL, Caltech
     location: Pasadena, California
     title: Student Independent Research Intern Program
@@ -161,8 +174,12 @@ research:
     dates: Feb 2018 -- May 2018
     area: Streaming
     details:
-      - Used Kafka Streams framework and Java programming language to
-        implement a streaming application to process real-time data
+      - Used Kafka Streams framework and Java 8 to implement a streaming
+        application processing real-time data
+      - Participated in collaborative meetings with experts and team
+        members to design the application
+      - Applied feedback from users to improve efficiency and user
+        experience of the application
 
 
 industry:
@@ -171,14 +188,14 @@ industry:
     title: Software Developer
     dates: Aug 2014 -- Aug 2015
     details:
-      - Developed three new features for an e-commerce platform by
-        analyzing requirements, designing a solution and implementing
-        the idea
-      - Maintained a running development environment consisting of a
-        server and several databases by regularly checking
+      - Developed a webpage for shop owners to manage items, using Java
+        7 and SQL databases
+      - Troubleshot and resolved bugs in a shopping website with
+        thousands of daily customer visits
+      - Maintained a Linux server and SQL databases by inspecting
         configurations and system logs
-      - Coded and tested two development tools based on software
-        specifications and designs
+      - Wrote Java unit and integration tests to improve quality of
+        applications
   # - place: Qualcomm
   #   location: San Diego, California
   #   title: Software Engineer Intern
@@ -197,6 +214,10 @@ industry:
 
 
 teaching:
+  - semester: Fa2020
+    name: Designing Information Devices, and Systems II
+    short: EE16B
+    position: Teaching Assistant (TA)
   - semester: Su2020
     name: Designing Information Devices, and Systems II
     short: EE16B
@@ -255,6 +276,15 @@ all_publications:
 
 
 coursework:
+  - semester: Fa2020
+    name: Operating Systems and System Programming
+    instructor: John Kubiatowicz
+  - semester: Fa2020
+    name: Probability and Random Processes
+    instructor: Shyam Parekh
+  - semester: Fa2020
+    name: Signals and Systems
+    instructor: Jaijeet Roychowdhury
   - semester: Sp2020
     name: Introduction to Machine Learning (CS 189/289A)
     instructor: Jonathan Shewchuk
@@ -298,9 +328,9 @@ coursework:
 
 skills:
   - title: Languages
-    details: Python, Java, C, C++, bash, {\it MATHLAB}
+    details: Python, Java, C, C++, bash, JavaScript, HTML, CSS {\it MATHLAB}
   - title: Frameworks
-    details: NumPy, SciPy, Apache Spark, Apache Hadoop, Apache Kafka
+    details: Git, Docker, Vagrant, PyTorch, TensorFlow, NumPy, SciPy, Apache Spark, Apache Hadoop, Apache Kafka
   - title: Systems
     details: Linux, OSX
 
